@@ -11,36 +11,36 @@ import menu6 from './menu6.jpg'
 import menu7 from './menu7.jpg'
 import menu8 from './menu8.jpg'
 
-import food1 from './food1.jpeg'
-import food2 from './food2.jpeg'
+import food1 from './food1.jpg'
+import food2 from './food2.jpg'
 import food3 from './food3.jpeg'
-import food4 from './food4.jpeg'
-import food5 from './food5.jpeg'
+import food4 from './food4.jpg'
+import food5 from './food5.jpg'
 import food6 from './food6.jpeg'
-import food7 from './food7.jpeg'
-import food8 from './food8.jpeg'
+import food7 from './food7.jpg'
+import food8 from './food8.jpg'
 import food9 from './food9.jpeg'
-import food10 from './food10.jpeg'
-import food11 from './food11.jpeg'
-import food12 from './food12.jpeg'
-import food13 from './food13.jpeg'
-import food14 from './food14.jpeg'
-import food15 from './food15.jpeg'
-import food16 from './food16.jpeg'
+import food10 from './food10.jpg'
+import food11 from './food11.jpg'
+import food12 from './food12.jpg'
+import food13 from './food13.png'
+import food14 from './food14.png'
+import food15 from './food15.png'
+import food16 from './food16.png'
 import food17 from './food17.jpeg'
-import food18 from './food18.jpeg'
+import food18 from './food18.jpg'
 import food19 from './food19.jpeg'
-import food20 from './food20.jpeg'
-import food21 from './food21.jpeg'
-import food22 from './food22.jpeg'
-import food23 from './food23.jpeg'
-import food24 from './food24.jpeg'
-import food25 from './food25.jpeg'
+import food20 from './food20.png'
+import food21 from './food21.jpg'
+import food22 from './food22.jpg'
+import food23 from './food23.jpg'
+import food24 from './food24.jpg'
+import food25 from './food25.jpg'
 import food26 from './food26.jpeg'
-import food27 from './food27.jpeg'
-import food28 from './food28.jpeg'
-import food29 from './food29.jpeg'
-import food30 from './food30.jpeg'
+import food27 from './food27.jpg'
+import food28 from './food28.jpg'
+import food29 from './food29.jpg'
+import food30 from './food30.jpg'
 import food31 from './food31.jpeg'
 import food32 from './food32.jpeg'
 
@@ -125,7 +125,7 @@ export const food_list = [
         name:"Neapolitan Pizza",
         image: food1,
         price: 12,
-        description:"Neapolitan pizza, or pizza Napoletana, is a type of pizza that originated in Naples, Italy. This style of pizza is prepared with simple and fresh ingredients: a basic dough, raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil.",
+        description:"Neapolitan pizza is a traditional style from Naples, Italy, made with a basic dough, raw tomatoes, fresh mozzarella, basil, and olive oil.",
         category:"Pizza"
     },
     {
@@ -133,7 +133,7 @@ export const food_list = [
         name:"Sicilian Pizza",
         image: food2,
         price: 19,
-        description:"Traditional Sicilian pizza is often thick-crusted and rectangular, but can also be round and similar to the Neapolitan pizza. It is often topped with onions, anchovies, tomatoes, herbs and strong cheese such as caciocavallo and toma. Other versions do not include cheese.",
+        description:"Traditional Sicilian pizza is thick-crusted and rectangular, topped with onions, anchovies, tomatoes, herbs, and strong cheese, though variations exist.",
         category:"Pizza"
     },
     {
@@ -149,7 +149,7 @@ export const food_list = [
         name:"Vegetarian Pizza",
         image: food4,
         price: 10,
-        description:"It's fresh and full of flavor, featuring cherry tomatoes, artichoke, bell pepper, olives, red onion and some hidden (and optional) baby spinach. You'll find a base of rich tomato sauce and golden, bubbling mozzarella underneath, of course.",
+        description:"It’s a fresh, flavorful dish with cherry tomatoes, artichoke, bell pepper, olives, red onion, optional baby spinach, rich tomato sauce, and golden, bubbling mozzarella.",
         category:"Pizza"
     },
     {
@@ -157,15 +157,15 @@ export const food_list = [
         name:"Butter Chicken",
         image: food5,
         price: 70,
-        description:"This chicken dinner uses deeply flavored chicken thighs, simmered in an ultra-silky and aromatic sauce of tomatoes, cream, and cashews. The cashews lend a buttery nuttiness and great texture to the sauce in this recipe, but blanched almonds would also work well. For the ultimate weeknight dinner, spoon this dish over steamed rice or serve with warm naan.",
+        description:"This chicken dinner features tender chicken thighs simmered in a rich, creamy tomato and cashew sauce, perfect served over rice or with naan.",
         category:"Chicken"
     },
     {
         _id:"6",
-        name:"Chicken Florentine Pasta",
+        name:"Chicken Florentine",
         image: food6,
         price: 40,
-        description:"If you're obsessed with chicken Florentine, then let us introduce you to your new favorite pasta dinner. Ready in under an hour, this is the weeknight dinner to make when you're craving something a bit special.",
+        description:"This creamy chicken Florentine recipe is made with baby spinach in a lighter, creamy white sauce. It's undeniably delicious and so good!",
         category:"Chicken"
     },
     {
@@ -173,7 +173,7 @@ export const food_list = [
         name:"Orange Chicken",
         image: food7,
         price: 45,
-        description:"If you just can't get enough of the classic Panda Express dish, this copycat recipe will be a game-changer. Ready in under an hour with all of the same sweet and savory flavors you love, staying in for weeknight dinner has never been easier.",
+        description:"Craving the classic Panda Express dish? This quick, copycat recipe brings all the sweet and savory flavors you love to your weeknight dinner in under an hour.",
         category:"Chicken"
     },
     {
@@ -181,7 +181,7 @@ export const food_list = [
         name:"Chicken Enchiladas",
         image: food8,
         price: 100,
-        description:"When the craving for satisfying comfort food meets the need for a straightforward dinner, chicken enchiladas are a guaranteed winner. They’re easy, filling, and take less than an hour to prepare from start to finish.",
+        description:"When you crave comfort food and need a simple dinner, chicken enchiladas are perfect—they’re easy to prepare, satisfying, and ready in under an hour.",
         category:"Chicken"
     },
     {
@@ -189,7 +189,7 @@ export const food_list = [
         name:"Taco al Pastor",
         image: food9,
         price: 40,
-        description:"A popular Mexican taco featuring pork marinated in a blend of spices, pineapple, and achiote. The pork is cooked on a vertical spit (like shawarma) and shaved onto corn tortillas, creating a sweet, savory, and slightly spicy flavor profile.",
+        description:"A popular Mexican taco with pork marinated in spices, pineapple, and achiote, cooked on a vertical spit and served on corn tortillas. It offers a sweet, savory, and slightly spicy flavor profile.",
         category:"Tacos"
     },
     {
@@ -213,7 +213,7 @@ export const food_list = [
         name:"Tacos de Barbacoa",
         image: food12,
         price: 90,
-        description:"Traditionally made with slow-cooked lamb or goat, barbacoa tacos have a tender, juicy texture and often feature a smoky, deep flavor. Beef can also be used in certain regions, and they’re usually served with simple toppings like onions and cilantro.",
+        description:"Barbacoa tacos, traditionally made with slow-cooked lamb or goat, are known for their tender, smoky flavor. In some regions, beef is used instead, and they're typically topped with onions and cilantro.",
         category:"Tacos"
     },
     {
@@ -245,7 +245,7 @@ export const food_list = [
         name:"Fusilli",
         image: food16,
         price: 5,
-        description:" A spiral-shaped pasta that’s excellent at holding onto sauces, fusilli works well with chunky vegetable or meat sauces. Its twisted shape also makes it perfect for pasta salads, allowing it to capture more dressing or toppings.",
+        description:"Fusilli’s spiral shape clings to rich sauces, enhancing flavor with every bite. It's perfect for pasta salads and various toppings. Its versatility suits both hearty dishes and light salads.",
         category:"Pasta"
     },
     {
@@ -269,7 +269,7 @@ export const food_list = [
         name:"Algerian Couscous",
         image: food19,
         price: 35,
-        description:"Similar to Moroccan couscous, Algerian couscous is made from steamed granules but may feature regional variations in seasoning and accompaniments. It often includes spicy and rich stews, sometimes with ingredients like chickpeas and a mix of local spices, reflecting Algerian culinary traditions.",
+        description:"Algerian couscous, like its Moroccan counterpart, is made from steamed granules but varies in seasoning and accompaniments. It frequently includes spicy stews, chickpeas, and local spices, showcasing Algerian culinary traditions.",
         category:"couscous"
     },
     {
@@ -285,15 +285,15 @@ export const food_list = [
         name:"Tajine of Lamb with Prunes",
         image: food21,
         price: 80,
-        description:"This tajine features tender lamb cooked with sweet prunes, almonds, and a blend of spices such as cinnamon and saffron. The result is a rich, sweet-savory dish with a fragrant and complex flavor profile.",
+        description:"This tajine blends tender lamb with sweet prunes, almonds, and aromatic spices such as cinnamon and saffron. The dish offers a delicious mix of sweet and savory flavors. The rich, fragrant profile makes it a complex and satisfying meal.",
         category:"tajine"
     },
     {
         _id:"22",
-        name:"Tajine of Chicken with Lemon and Olives",
+        name:"Tajine Chicken Lemon",
         image: food22,
         price: 60,
-        description:"A classic Moroccan dish, this tajine combines chicken with preserved lemons and green olives. The slow cooking process melds the tangy flavors of the lemon with the briny olives, creating a savory and aromatic dish.",
+        description:"This traditional Moroccan tajine blends chicken with preserved lemons and green olives. Slow-cooked to perfection, it harmonizes the tangy zest of lemon with the briny depth of olives. The result is a richly aromatic and flavorful dish.",
         category:"tajine"
     },
     {
@@ -306,7 +306,7 @@ export const food_list = [
     },
     {
         _id:"24",
-        name:"Tajine of Fish with Tomatoes and Onions",
+        name:"Tajine Fish Delight Trio",
         image: food24,
         price: 30,
         description:"This tajine is made with fish, often layered with tomatoes, onions, and a blend of spices such as paprika and garlic. The slow cooking process infuses the fish with the rich flavors of the vegetables and spices, creating a light and flavorful dish.",
@@ -333,7 +333,7 @@ export const food_list = [
         name:"Tuna",
         image: food27,
         price: 105,
-        description:"Tuna is a versatile fish with a firm texture and mild flavor. It's commonly used in sushi, salads, and steaks. There are various types, such as yellowfin and bluefin, each with distinct characteristics.",
+        description:"Tuna is a versatile fish with a firm texture and mild flavor, often used in sushi, salads, and steaks. Types like yellowfin and bluefin have unique characteristics.",
         category:"fish"
     },
     {
@@ -341,20 +341,20 @@ export const food_list = [
         name:"Halibut",
         image: food28,
         price: 80,
-        description:"Halibut is a large flatfish with a mild, sweet flavor and firm, white flesh. It's often enjoyed grilled, baked, or pan-seared. Its firm texture makes it suitable for various cooking methods.",
+        description:"Halibut is a large flatfish with mild, sweet flavor and firm white flesh. It’s commonly grilled, baked, or pan-seared. Its firm texture suits various cooking methods.",
         category:"fish"
     },
     {
         _id:"29",
-        name:"Pastilla de Pollo (Chicken Pastilla)",
+        name:"Pastilla de Pollo",
         image: food29,
         price: 150,
-        description:"This is the most well-known version of pastilla. It features shredded chicken cooked with onions, garlic, and a blend of spices such as cinnamon, ginger, and saffron. The chicken mixture is combined with almonds and sometimes eggs, then wrapped in layers of phyllo pastry and baked until golden and crispy. It's often garnished with powdered sugar and cinnamon, giving it a sweet and savory flavor.",
+        description:"This popular version of pastilla uses shredded chicken cooked with onions, garlic, and spices like cinnamon, ginger, and saffron. The chicken is mixed with almonds and occasionally eggs, then wrapped in phyllo pastry and baked until golden and crispy. It's typically garnished with powdered sugar and cinnamon, offering a delightful sweet and savory flavor.",
         category:"pastilla"
     },
     {
         _id:"30",
-        name:"Pastilla de Pigeon (Pigeon Pastilla)",
+        name:"Pastilla de Pigeon",
         image: food30,
         price: 130,
         description:"Traditionally, this version uses pigeon, which is slow-cooked with similar spices as chicken pastilla. The pigeon meat is shredded and mixed with almonds, eggs, and a blend of aromatic spices. Like its chicken counterpart, it is wrapped in phyllo pastry and baked until crisp. This version is considered more authentic and is often reserved for special occasions.",
@@ -362,7 +362,7 @@ export const food_list = [
     },
     {
         _id:"31",
-        name:"Pastilla de Mariscos (Seafood Pastilla)",
+        name:"Pastilla de Mariscos",
         image: food31,
         price: 110,
         description:"This variation uses a mix of seafood, such as shrimp, fish, and sometimes squid. The seafood is cooked with spices, herbs, and often a touch of lemon. The mixture is then combined with ingredients like onions and sometimes nuts, wrapped in phyllo pastry, and baked. This pastilla is lighter and offers a different flavor profile compared to the traditional meat versions.",
@@ -370,7 +370,7 @@ export const food_list = [
     },
     {
         _id:"32",
-        name:"Pastilla Végétarienne (Vegetarian Pastilla)",
+        name:"Pastilla Végétarienne",
         image: food32,
         price: 170,
         description:"A vegetarian version of pastilla typically includes a variety of vegetables like mushrooms, spinach, and sometimes legumes such as chickpeas. The vegetables are cooked with Moroccan spices and mixed with nuts and dried fruits. This mixture is then wrapped in phyllo pastry and baked, providing a flavorful and satisfying option for those who prefer not to eat meat.",
