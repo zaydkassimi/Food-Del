@@ -32,6 +32,8 @@
 .footer-social-icons img{
     width: 35px;
     margin-right: 10px;
+    margin-left: 80px;
+    margin-top: 15px;
 }
 .footer hr{
     width: 100%;
@@ -39,4 +41,7 @@
     margin: 20px 0;
     background-color: grey;
     border: none;
+}
+.logoo{
+    margin-left: 170px;
 }
