@@ -254,7 +254,7 @@ export const food_list = [
         image: food17,
         price: 50,
         description:"Often referred to as Moroccan couscous, this is the most common type. It consists of small steamed granules of wheat, typically served with a variety of stews, vegetables, and meats. The texture is light and fluffy, making it a staple in North African cuisine.",
-        category:"couscous"
+        category:"Couscous"
     },
     {
         _id:"18",
@@ -262,7 +262,7 @@ export const food_list = [
         image: food18,
         price: 30,
         description:"Known as moghrabieh or majadra, Lebanese couscous features larger, rounder grains than traditional couscous. It's typically cooked with meats and vegetables or used in hearty dishes. The texture is somewhat chewy, and it has a nutty flavor.",
-        category:"couscous"
+        category:"Couscous"
     },
     {
         _id:"19",
@@ -270,7 +270,7 @@ export const food_list = [
         image: food19,
         price: 35,
         description:"Algerian couscous, like its Moroccan counterpart, is made from steamed granules but varies in seasoning and accompaniments. It frequently includes spicy stews, chickpeas, and local spices, showcasing Algerian culinary traditions.",
-        category:"couscous"
+        category:"Couscous"
     },
     {
         _id:"20",
@@ -278,7 +278,7 @@ export const food_list = [
         image: food20,
         price: 40,
         description:"Known for its spiciness, Tunisian couscous is often prepared with a fiery chili paste called harissa, along with lamb, chicken, or fish. The couscous is typically served with a rich, spicy broth and a variety of vegetables, reflecting Tunisia’s bold flavors.",
-        category:"couscous"
+        category:"Couscous"
     },
     {
         _id:"21",
@@ -286,7 +286,7 @@ export const food_list = [
         image: food21,
         price: 80,
         description:"This tajine blends tender lamb with sweet prunes, almonds, and aromatic spices such as cinnamon and saffron. The dish offers a delicious mix of sweet and savory flavors. The rich, fragrant profile makes it a complex and satisfying meal.",
-        category:"tajine"
+        category:"Tajine"
     },
     {
         _id:"22",
@@ -294,7 +294,7 @@ export const food_list = [
         image: food22,
         price: 60,
         description:"This traditional Moroccan tajine blends chicken with preserved lemons and green olives. Slow-cooked to perfection, it harmonizes the tangy zest of lemon with the briny depth of olives. The result is a richly aromatic and flavorful dish.",
-        category:"tajine"
+        category:"Tajine"
     },
     {
         _id:"23",
@@ -302,7 +302,7 @@ export const food_list = [
         image: food23,
         price: 90,
         description:"This version includes chunks of beef stewed with a variety of vegetables such as carrots, potatoes, and zucchini. The dish is flavored with a mix of spices like cumin, coriander, and turmeric, resulting in a hearty and flavorful meal.",
-        category:"tajine"
+        category:"Tajine"
     },
     {
         _id:"24",
@@ -310,7 +310,7 @@ export const food_list = [
         image: food24,
         price: 30,
         description:"This tajine is made with fish, often layered with tomatoes, onions, and a blend of spices such as paprika and garlic. The slow cooking process infuses the fish with the rich flavors of the vegetables and spices, creating a light and flavorful dish.",
-        category:"tajine"
+        category:"Tajine"
     },
     {
         _id:"25",
@@ -318,7 +318,7 @@ export const food_list = [
         image: food25,
         price: 100,
         description:"Known for its rich, oily flesh and high omega-3 fatty acid content, salmon is a popular choice for its flavor and nutritional benefits. It's often enjoyed grilled, baked, or smoked.",
-        category:"fish"
+        category:"Fish"
     },
     {
         _id:"26",
@@ -326,7 +326,7 @@ export const food_list = [
         image: food26,
         price: 120,
         description:"Cod has a mild, slightly sweet flavor and a flaky texture. It's commonly used in dishes like fish and chips and is also popular in soups and stews.",
-        category:"fish"
+        category:"Fish"
     },
     {
         _id:"27",
@@ -334,7 +334,7 @@ export const food_list = [
         image: food27,
         price: 105,
         description:"Tuna is a versatile fish with a firm texture and mild flavor, often used in sushi, salads, and steaks. Types like yellowfin and bluefin have unique characteristics.",
-        category:"fish"
+        category:"Fish"
     },
     {
         _id:"28",
@@ -342,7 +342,7 @@ export const food_list = [
         image: food28,
         price: 80,
         description:"Halibut is a large flatfish with mild, sweet flavor and firm white flesh. It’s commonly grilled, baked, or pan-seared. Its firm texture suits various cooking methods.",
-        category:"fish"
+        category:"Fish"
     },
     {
         _id:"29",
@@ -350,7 +350,7 @@ export const food_list = [
         image: food29,
         price: 150,
         description:"This popular version of pastilla uses shredded chicken cooked with onions, garlic, and spices like cinnamon, ginger, and saffron. The chicken is mixed with almonds and occasionally eggs, then wrapped in phyllo pastry and baked until golden and crispy. It's typically garnished with powdered sugar and cinnamon, offering a delightful sweet and savory flavor.",
-        category:"pastilla"
+        category:"Pastilla"
     },
     {
         _id:"30",
@@ -358,7 +358,7 @@ export const food_list = [
         image: food30,
         price: 130,
         description:"Traditionally, this version uses pigeon, which is slow-cooked with similar spices as chicken pastilla. The pigeon meat is shredded and mixed with almonds, eggs, and a blend of aromatic spices. Like its chicken counterpart, it is wrapped in phyllo pastry and baked until crisp. This version is considered more authentic and is often reserved for special occasions.",
-        category:"pastilla"
+        category:"Pastilla"
     },
     {
         _id:"31",
@@ -366,7 +366,7 @@ export const food_list = [
         image: food31,
         price: 110,
         description:"This variation uses a mix of seafood, such as shrimp, fish, and sometimes squid. The seafood is cooked with spices, herbs, and often a touch of lemon. The mixture is then combined with ingredients like onions and sometimes nuts, wrapped in phyllo pastry, and baked. This pastilla is lighter and offers a different flavor profile compared to the traditional meat versions.",
-        category:"pastilla"
+        category:"Pastilla"
     },
     {
         _id:"32",
@@ -374,6 +374,6 @@ export const food_list = [
         image: food32,
         price: 170,
         description:"A vegetarian version of pastilla typically includes a variety of vegetables like mushrooms, spinach, and sometimes legumes such as chickpeas. The vegetables are cooked with Moroccan spices and mixed with nuts and dried fruits. This mixture is then wrapped in phyllo pastry and baked, providing a flavorful and satisfying option for those who prefer not to eat meat.",
-        category:"pastilla"
+        category:"Pastilla"
     }
 ]
